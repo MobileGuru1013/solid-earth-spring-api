@@ -1,0 +1,22 @@
+{
+  "name": "spring-plugin",
+  "version": "0.0.0",
+  "authors": [
+    "Duncan Smith <hello@duncanmsmith.com>",
+    "Nicole Whitehead <ncwhitehead@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "unslider": "~1.0.0",
+    "mustache": "~2.0.0",
+    "handlebars": "~3.0.3"
+  }
+}

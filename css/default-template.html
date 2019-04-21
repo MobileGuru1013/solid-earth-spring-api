@@ -1,0 +1,27 @@
+<div class="spring-slider">
+  <ul>
+    {{#results}}
+      <li>
+        <img src="{{img}}" />
+        {{#location}}{{#address}}
+          <p>{{StreetNumber}} {{StreetName}}</p>
+          <p>{{City}}, {{StateOrProvince}}</p>
+        {{/address}}{{/location}}
+
+        {{#listingPricing}}
+          <p class="price">${{listPrice}}</p>
+        {{/listingPricing}}
+
+        {{#remarks}}
+          <p class="description">{{publicRemarks}}</p>
+        {{/remarks}}
+      </li>
+    {{/results}}
+  </ul>
+</div>
+
+<script>
+  SpringPlugin
+  .jQuery(".spring-slider")
+  .unslider({dots: true, delay: 1000000});
+</script>

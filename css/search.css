@@ -1,0 +1,363 @@
+.spring-quick-search {
+     font-family: "Arial",sans-serif ! important;
+     font-size: 12px ! important;
+     margin: 21px 0px ! important;
+}
+.spring-quick-search p {
+     font-weight: lighter;
+}
+.spring-quick-search-form input[type="text"] {
+     width: 100%;
+}
+.spring-quick-search-listing-previous a:nth-child(2) {
+     display: none;
+}
+.spring-quick-search-form select {
+     width: 100px;
+     padding: 3px 0px 3px 3px;
+     border: 1px solid #DDDDDD;
+     font-size: 16px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: normal;
+     height: 28px;
+}
+.spring-quick-search-pages ul {
+     list-style-type: none;
+     overflow: hidden;
+     width: 200px;
+}
+.spring-quick-left-float {
+     float: left;
+}
+.spring-quick-right-float {
+     float: right;
+}
+.entry-content ul.spring-quick-search-pages {
+     margin:0;
+     padding:7px 15px;
+}
+.spring-quick-search-pages li {
+     display: inline-block;
+     margin-right: 3px;
+     line-height: 32px;
+}
+.spring-quick-search-pages li a {
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    padding: 0 5px;
+    text-align: center;
+    width: auto;
+    line-height: 20px;
+}
+.spring-quick-search-listings ul {
+     list-style-type: none;
+     overflow: hidden;
+}
+.entry-content ul.spring-quick-search-listings {
+     margin: 0;
+     padding: 0;
+}
+.spring-quick-search-listings li {
+     border: 1px solid black;
+     box-shadow: 0 1px 10px #999;
+     color: black;
+     display: block;
+     float: left;
+     margin: 14px;
+     width: 220px;
+     min-height: 350px;
+     position:relative;
+}
+.spring-quick-search-listings a:hover > li{
+     background-color: #f0f0f0 !important;
+     box-shadow: 0 1px 2px #999, 0 0 8px #aaa inset !important;
+     transition: all 0.3s ease 0s !important;
+}
+.spring-agent-search-listing {
+     border: 1px solid black;
+     color: black;
+     display: inline-block;
+     margin: 20px 40px 20px 60px ! important;
+     width: 193px;
+}
+.spring-quick-search-listing:hover {
+     background-color: #dedede;
+}
+.spring-agent-search-listing:hover {
+     background-color: #dedede;
+}
+.spring-min-max {
+     clear: both;
+}
+.spring-clear-line {
+     clear: both;
+}
+.spring-quick-search-background {
+     background-color: #f7f7f7;
+     border: 1px solid #dedede;
+     color: #606060;
+     font-size: 11px;
+     font-weight: bold;
+     line-height: 22px;
+     text-align: right;
+     margin-top:10px;
+}
+.spring-quick-search-photo-wrapper {
+     background: rgba(0, 0, 0, 0) url("images/no-photo.png") no-repeat scroll 0 0 !important;
+     height: 153px !important;
+     width: 100%;
+     display:block;
+}
+.spring-quick-search-listing p {
+     padding:0 10px;
+}
+.spring-quick-search-address {
+     text-align:center;
+     padding:0;
+     margin:2px 0;
+     font-size:14px;
+     color:#333;
+     font-weight: bold !important;
+}
+.quick-search-price {
+     text-align:center;
+     background-color:#999;
+     color:#fff;
+     padding:0;
+     font-size:16px;
+     line-height:26px;
+     margin-bottom:10px;
+}
+.spring-quick-search-rooms {
+    border-top: 1px solid #bbb;
+    margin: 10px 10px 0;
+    padding: 10px 0 0 !important;
+}
+.spring-quick-search-rooms::before {
+     content:"Size: ";
+     font-weight: bold;
+}
+.spring-quick-search-property-type::before {
+     content:"Property Type: ";
+     font-weight: bold;
+}
+.spring-quick-search-listing-source, .spring-quick-search-listing p:last-child {
+     bottom: 0;
+     font-size: 10px;
+     font-style: italic;
+     margin: 0;
+     padding: 0;
+     position: absolute;
+     text-align: center;
+     width: 100%;
+}
+.spring-quick-search-form {
+     display: block;
+     width: 100%;
+}
+#spring-results-map {
+     height: 450px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     width: 95%;
+}
+.spring-advanced-search-link {
+     color: #333333 ! important;
+     display: inline-block;
+     font-family: "Arial",sans-serif ! important;
+     font-size: 11px ! important;
+     font-style: italic ! important;
+     font-weight: bold ! important;
+     line-height: 10px ! important;
+     margin-top: 14px ! important;
+     padding-left: 15px ! important;
+     position: relative ! important;
+     text-decoration: none ! important;
+}
+.spring-advanced-search-form {
+     background-color: #f2f2f2 ! important;
+     border: 1px solid #cccccc;
+     margin-bottom: 20px;
+}
+.spring-advanced-search-form input {
+     margin: 5px 1px 3px 0px;
+     outline: medium none;
+     padding: 3px 0px 3px 3px;
+     transition: all 0.3s ease-in-out 0s;
+}
+.spring-advanced-search-form input:focus {
+     border: 1px solid #51cbee;
+     box-shadow: 0px 0px 5px #51cbee;
+     margin: 5px 1px 3px 0px;
+     padding: 3px 0px 3px 3px;
+}
+.spring-advanced-search-form select {
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #DDDDDD;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 28px;
+}
+#sorting-select {
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #DDDDDD;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 28px;
+}
+.spring-advanced-search-submit {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     background: #b0b0b0 none repeat scroll 0% 0% ! important;
+     border-bottom: medium none ! important;
+     border-collapse: separate;
+     border-image: none;
+     border-left: 0px none;
+     border-radius: 0px;
+     border-right: 0px none;
+     border-spacing: 0px;
+     border-top: 0px none;
+     box-shadow: none;
+     box-sizing: content-box;
+     clear: none;
+     color: #000000 ! important;
+     cursor: pointer;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-size: 15px;
+     font-stretch: normal;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: normal;
+     height: 20px;
+     letter-spacing: normal;
+     list-style-type: none;
+     line-height:20px;
+     margin: 0px 0px 10px 5px;
+     max-height: none;
+     max-width: none;
+     min-height: 0px;
+     min-width: 0px;
+     outline: 0px none;
+     text-align: left;
+     text-transform: none;
+     vertical-align: baseline;
+}
+span.spring-advanced-search-submit {
+     margin-right: 5px;
+     padding: 3px 8px;
+     line-height:22px;
+}
+input.spring-advanced-search-submit {
+     padding: 3px 8px;
+     border:none;
+}
+.spring-advanced-search-submit:hover {
+     background-color: #d0d0d0 ! important;
+}
+.spring-listing-choices {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-bottom: medium none ! important;
+     border-collapse: separate;
+     border-image: none;
+     border-left: 0px none;
+     border-radius: 0px;
+     border-right: 0px none;
+     border-spacing: 0px;
+     border-top: 0px none;
+     box-shadow: none;
+     box-sizing: content-box;
+     clear: none;
+     color: #a3a3a3 ! important;
+     cursor: pointer;
+     font-family: "Georgia",serif ! important;
+     font-size: 13px ! important;
+     font-stretch: normal;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: normal;
+     height: 20px;
+     letter-spacing: normal;
+     list-style-type: none;
+     margin: 3px 3px 10px 5px;
+     max-height: none;
+     max-width: none;
+     min-height: 0px;
+     min-width: 0px;
+     outline: 0px none;
+     padding: 4px;
+     text-align: left;
+     text-transform: none;
+     vertical-align: baseline;
+}
+.spring-listing-choices:hover {
+     border-color: #606060;
+     border-style: solid;
+     border-width: 1px;
+     color: #000000 ! important;
+}
+#spring-search-field-toggle {
+     float: right;
+     margin-top: 5px;
+}
+.spring-advanced-search-text-entries {
+     float: left;
+     margin-left: 2%;
+     width: 60%;
+}
+.spring-advanced-search-text-entries input, select {
+     margin: 2px;
+     width: 90%;
+}
+.spring-advanted-search-min-max {
+     float: right;
+     width: 40%;
+}
+.spring-advanced-top-portion {
+     border-bottom: 1px solid #dedede;
+     height: 110px;
+     margin-top: 10px;
+}
+#spring-advanced-search-min-bathrooms {
+     float: left;
+     width: 17%;
+}
+#spring-advanced-min-bedrooms {
+     float: right;
+     width: 17%;
+}
+#spring-advanced-min-list-price {
+     float: left;
+     width: 17%;
+}
+#spring-advanced-max-list-price {
+     float: right;
+     width: 17%;
+}
+.spring-clearfix::after {
+     clear: both;
+     content: ".";
+     display: block;
+     height: 0px;
+     visibility: hidden;
+}
+#spring-quick-property-select {
+     width: 100%;
+}
+#spring-find-home-button {
+     display: block;
+     margin: 0px auto;
+     width: 200px;
+}

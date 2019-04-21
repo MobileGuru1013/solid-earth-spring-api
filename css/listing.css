@@ -1,0 +1,282 @@
+.spring-listing-overarch {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px !important;
+}
+
+.spring-listing-overarch div {
+  margin-bottom: 10px;
+}
+
+.spring-action {
+  border-bottom: 1px solid #dedede;
+  line-height: 22px;
+  font-size: 11px;
+  color: #606060;
+  font-weight: bold;
+  text-align: right;
+  background-color: #f7f7f7;
+}
+
+#spring-modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .50;
+  -webkit-opacity: .5;
+  -moz-opacity: .5;
+  filter: alpha(opacity=50);
+  z-index: 1000;
+}
+
+#spring-modal-content {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0 0 20px 0 #222;
+  -webkit-box-shadow: 0 0 20px 0 #222;
+  -moz-box-shadow: 0 0 20px 0 #222;
+  display: none;
+  height: 600px;
+  left: 50%;
+  margin: 0 0 0 -200px;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  width: 340px;
+  z-index: 1000;
+}
+
+#spring-modal-close {
+  border: 1px solid #515151;
+  padding: 0px 10px;
+  height: 28px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  background: url('../img/back-background.png') 0px 0px repeat-x !important;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+#spring-friend-modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .50;
+  -webkit-opacity: .5;
+  -moz-opacity: .5;
+  filter: alpha(opacity=50);
+  z-index: 1000;
+}
+
+#spring-friend-modal-content {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0 0 20px 0 #222;
+  -webkit-box-shadow: 0 0 20px 0 #222;
+  -moz-box-shadow: 0 0 20px 0 #222;
+  display: none;
+  height: 400px;
+  left: 50%;
+  margin: -120px 0 0 -240px;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  width: 400px;
+  z-index: 1000;
+}
+
+#spring-friend-modal-close {
+  border: 1px solid #515151;
+  padding: 0px 10px;
+  height: 28px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  background: url('../img/back-background.png') 0px 0px repeat-x !important;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.spring-input-form input, textarea{
+  margin: 5px;
+}
+
+.spring-request-showing, .spring-save-property {
+  position: relative;
+  display: inline-block;
+  float: left;
+  border: 1px solid #858585;
+  width: 202px;
+  height: 42px;
+  line-height: 42px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 11px;
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+  text-indent: 15px;
+  background: url('../img/simple-background.png') 0px 0px repeat-x !important;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+#spring-modal-background.active, #spring-modal-content.active {
+    display: block;
+}
+
+#spring-friend-modal-background.active, #spring-friend-modal-content.active {
+    display: block;
+}
+
+.spring-title {
+  padding: 0px 20px;
+  height: 57px;
+  line-height: 57px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: #383838;
+  text-shadow: 0px 1px 2px #fff;
+  background: url('../img/title-background.png') 0px 0px repeat-x !important;
+}
+
+.spring-listing-overarch h1{
+  margin-top: 28px;
+  margin-left: 10px;
+  line-height: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: #383838;
+}
+
+.spring-listing-property-description p{
+  margin-top: 15px;
+  line-height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #515151;
+}
+
+.spring-listing-address-information {
+  line-height: 14px;
+  font-size: 16px;
+  color: #383838;
+  font-weight: bold;
+  border-left: 3px double #ddd;
+}
+
+.spring-listing-full-block div{
+  border-left: 3px double #ddd;
+}
+
+.spring-listing-direct-img {
+  max-width: 97.5%;
+}
+
+#spring-listing-inner-img {
+  max-width: 97.5%;
+}
+
+.spring-listing-detail-photos {
+  float: right;
+  width: 50%;
+}
+
+.spring-listing-detail-photos ul{
+  max-width: 100%;
+  list-style-type: none;
+}
+
+.spring-listing-detail-photos li {
+  width: 20%;
+  display: inline-block;
+}
+
+#spring-listing-current-photo {
+  float: left;
+  width: 50%;
+}
+
+.spring-listing-property-full-address {
+  float: left;
+  width: 50%;
+  max-width: 45%;
+}
+
+.spring-listing-interior-information {
+  float: right;
+  width: 50%;
+  max-width: 45%;
+}
+
+.spring-listing-features {
+  float: left;
+  width: 50%;
+  max-width: 45%;
+}
+
+.spring-listing-school-information {
+  float: right;
+  width: 50%;
+  max-width: 45%;
+}
+
+.spring-listing-agent {
+  float: right;
+  width: 50%;
+  max-width: 45%;
+}
+
+@media (max-width: 600px) {
+  .spring-listing-wrapper div{
+    width: 100%;
+    max-width: 95%;
+    float: left;
+    position: relative;
+  }
+
+  #spring-listing-current-photo {
+    width: 100%;
+    max-width: 95%;
+    position: relative;
+  }
+
+  .spring-listing-detail-photos {
+    width: 100%;
+    max-width: 95%;
+    position: relative;
+  }
+}
